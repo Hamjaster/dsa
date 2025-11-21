@@ -1,5 +1,11 @@
 {
   "files.associations": {
-    "cmath": "cpp"
+    "cmath": "cpp",
+    "format": "cpp",
+    "bitset": "cpp",
+    "algorithm": "cpp",
+    "limits": "cpp",
+    "utility": "cpp",
+    "xutility": "cpp"
   }
 }

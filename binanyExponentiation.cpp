@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include <bitset>
+#include <format>
 
 using namespace std;
 
@@ -22,11 +24,14 @@ int main()
 {
 
     // calculate 3^5
-    int base = 3;
-    int n = 5;
+    int base;
+    int n;
+    cout << "enter base & power respectively !";
+    cin >> base;
+    cin >> n;
 
-    int binaryPower = convertToBinary(n);
-    cout << n;
+    int binaryPower = format("{:b}", n);
+
     int ans = 1;
     int x = base;
     while (binaryPower > 0)
